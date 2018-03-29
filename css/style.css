@@ -1,0 +1,212 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.wrapper {
+    padding-left: 35px;
+    padding-right: 35px;
+}
+.header {
+    height: 100px;
+    background-color: #121B2A;
+    overflow: hidden;
+}
+.logo{
+    float: left;
+    width: 30%;
+    height: 80px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url(../image/logo.PNG);
+}
+.menubar{
+    float: right;
+    width: 60%;
+    padding-top: 35px;
+}
+.menubar ul{
+       
+    }
+.menubar ul li{
+    list-style: none;
+    display: inline-block;
+    font-size: 20px;
+    padding-right:15px;
+    
+}
+.menubar ul li a{
+    text-decoration: none;
+    color: white;
+    
+}
+.menubar ul li a:hover{
+    color: skyblue;
+    
+}
+
+.banner {
+    background-size: cover;
+    height: 480px;
+    background-position:center;
+    background-repeat:no-repeat;
+    background-image: url(../image/banner.jpg);
+}
+.detal{
+    width: 30%;
+    padding-top: 210px;
+    padding-left: 126px;
+}
+.detal h2{
+    color: white;
+    font-weight: normal;
+    
+}
+.detal h1{
+    color:#0074B7;
+    font-weight: 200;
+}
+.detal p{
+    color: white;
+    font-weight: normal;
+    
+}
+.detal button{
+    color: #939393;
+    background-color: white;
+    padding: 8px 34px;
+    margin-top: 18px;
+    font-size: 15px;
+    border: 1px white;
+    border-radius: 2px;
+    
+}
+
+.service {
+    height: 420px;
+    background-color: #121B2C;
+    overflow: hidden;
+}
+.serv1{
+    float: left;
+    width: 30%;
+    color: white;
+    padding: 115px 20px;
+    
+        
+}
+.up{
+    overflow: hidden;
+}
+.up img{
+    float: left;
+}
+.up h1{
+    float:left;
+}
+.down{
+    padding-top: 14px;
+    padding-right: 108px;
+}
+.down p{
+    text-align: left;
+}
+
+.testimony {
+    height: 400px;
+    background-color: #040811;
+    overflow: hidden;
+}
+.test1{
+    float: left;
+    width: 30%;
+    color: white;
+    padding: 70px 20px;
+    overflow: hidden;
+}
+.test1 h5{
+    font-size: 30px;
+    font-weight:bold;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+.test1 h3{
+    margin-left: 25px;
+    font-weight: normal;
+}
+.test1 h4{
+    margin-left: 25px;
+    font-weight: normal;
+}
+.custm{
+    background-color: #0C1019;
+    padding: 28px;
+    margin-bottom: 30px;
+}
+.custm h1{
+    margin-bottom: 10px;
+}
+.mbl{
+    float: left;
+    width: 30%;
+    padding-right: 15px;
+}
+.mbl img{
+    width: 100%;
+    height: 225px;
+}
+.edge{
+    float:left;
+    width: 60%;
+}
+.edge h1{
+    color: #005182;
+}
+.edge button{
+    margin-top: 15px;
+    padding: 15px;
+    border-radius: 12px;
+    color: black;
+    font-weight: bold;
+    background-color: white;
+}
+
+.footer {
+    height: 120px;
+    background-color: #121B2C;
+    overflow: hidden;
+}
+.foot_menu{
+    float: left;
+    width: 60%;
+    padding-top: 40px;
+    padding-left: 70px;
+    color: white;
+    
+}
+.foot_menu ul li:last-child {
+   border-right: none;
+}
+.foot_menu ul li{
+    list-style: none;
+    display: inline-block;
+    font-size: 18px;
+    padding-left: 12px;
+    padding-right: 12px;
+    font-weight: bold;
+    border-right: 2px solid white;
+}
+.foot_menu p{
+    padding-top: 25px;
+    padding-left: 12px;
+}
+    
+.foot_logo{
+    float:right;
+    width: 30%;
+    height: 80px;
+    padding: 15px 25px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url(../image/foot.PNG);
+    
+}
